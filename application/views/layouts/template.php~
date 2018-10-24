@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Welcome to CodeIgniter</title>
+	<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+
+
+</head>
+<body>
+
+<h1>Título desde el layout</h1>
+
+<!-- Contenido -->
+	<div id="manzana">
+		<?php
+		
+		echo $content_for_layout;
+		
+		?>
+	
+	</div>	
+	
+
+
+</body>
+</html>
